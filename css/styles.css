@@ -102,27 +102,27 @@ p {
 
 /* навігація сайта */
 
-.nav-main {
+.header-container {
   border-bottom: 1px solid var(--primary-border-color);
 }
 
-.nav-menu {
+.header-menu {
   display: flex;
   align-items: center;
 }
-.nav-site {
+.nav-menu {
   display: flex;
   padding-left: 93px;
 }
-.nav-site .item {
+.nav-menu .item {
   margin-right: 50px;
 }
 
-.nav-site .item:last-child {
+.nav-menu .item:last-child {
   margin-right: 0;
 }
 
-.nav-site .link {
+.nav-menu .link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -135,13 +135,13 @@ p {
   font-size: 14px;
   line-height: 1.14;
 }
-.nav-site .link-accent {
+.nav-menu .link-accent {
   color: var(--accent-color);
 }
 
-.nav-site .link-accent,
-.nav-site .link:hover,
-.nav-site .link:focus {
+.nav-menu .link-accent,
+.nav-menu .link:hover,
+.nav-menu .link:focus {
   color: var(--accent-color);
 }
 .menu-link {
@@ -161,7 +161,7 @@ p {
 }
 
 .menu-link:hover::after,
-.menu-link:focus::after {
+.menu-link:hover::after {
   display: inline-block;
   position: absolute;
   content: '';
@@ -188,11 +188,11 @@ p {
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-contact {
+.contacts {
   display: flex;
   margin-left: auto;
 }
-.nav-link {
+.contacts-link {
   display: flex;
   align-items: center;
 }
@@ -219,7 +219,7 @@ p {
 .nav-link:focus {
   color: var(--accent-color);
 }
-.icon {
+.contacts__icon {
   margin-left: 0;
   margin-right: 10px;
   justify-content: center;
