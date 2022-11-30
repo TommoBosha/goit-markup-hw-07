@@ -2,7 +2,7 @@
     background-color: $SecondaryBGColor;
 }
 
-.team__list {
+.team-list {
     @include list;
     display: flex;
     justify-content: space-between;

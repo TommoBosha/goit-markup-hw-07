@@ -14,11 +14,11 @@
     font-style: normal;
 }
 
-.footer__list {
+.footer-list {
     @include list;
 }
 
-.footer-location__address {
+.footer-list__address {
     margin-bottom: 9px;
 
 &:last-child {
@@ -27,7 +27,7 @@
 }
 
 
-.footer-location__address--color--white {
+.footer-list__address_color_white {
     @include link;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -39,7 +39,7 @@
         }
 }
 
-.footer-location__address--color--alfa {
+.footer-list__address_color_alfa {
     @include link;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -58,7 +58,7 @@
     margin-left: 93px;
 }
 
-.footer__title {
+.footer-title {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
@@ -101,7 +101,7 @@
     gap: 10px;
 }
 
-.signup__input {
+.signup-input {
     padding: 14px 16px;
     width: 358px;
     outline: none;

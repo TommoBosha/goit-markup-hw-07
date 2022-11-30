@@ -7,7 +7,7 @@
     letter-spacing: 0.03em;
     color: $TitleTextColor;
 }
-.modal-form__form-group {
+.modal-form__group {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
@@ -18,7 +18,7 @@
     position: relative;
 }
 
-.modal-form__label {
+.modal-form-label {
     display: block;
     margin-bottom: 4px;
     font-weight: 400;
@@ -28,7 +28,7 @@
     color: $PrimaryTextColor;
 }
 
-.modal-form__input {
+.modal-form-input {
     width: 100%;
     padding: 11px 12px 11px 42px;
     border: 1px solid $ThirdBorderColor;
@@ -64,7 +64,7 @@
         }
 }
 
-.modal-form__textarea {
+.modal-form-textarea {
     resize: none;
     padding: 12px 16px;
     width: 100%;
@@ -123,7 +123,7 @@
             }
 }
 
-.modal-button {
+.modal-form-button {
     display: block;
         margin: 0 auto;
         width: 200px;

@@ -1,11 +1,11 @@
 
-.nav-menu__list {
+.nav-list {
     @include list;
     display: flex;
     margin-left: 93px;
 }
 
-.nav-menu__item {
+.nav-list__item {
     margin-right: 50px;
 
     &:last-child {
@@ -15,7 +15,7 @@
 
 
 
-.nav-menu__link{
+.nav-list__link{
     
     display: block;
     position: relative;
@@ -31,11 +31,11 @@
         line-height: 1.14;
         text-decoration: none;
 
-        &--current,&:hover,
+        &_current,&:hover,
             &:focus{
         color: $AccentColor;
         }
-       &:hover::after,&:focus::after, &--current::after {
+       &:hover::after,&:focus::after, &_current::after {
                       display: inline-block;
                       position: absolute;
                       content: '';

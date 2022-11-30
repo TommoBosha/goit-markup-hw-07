@@ -8,25 +8,20 @@
         
 // }
 
-.button__primary {
+.button-primary {
    @include button;
     padding: 10px 32px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 
 
-    font-weight: 700;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
-    &:hover,&:focus {
-        background: $SecondaryAccentColor;
-    }
+   
 }
 
-.button__secondary {
+.button-secondary {
     @include button($SecondaryBGColor,$TitleTextColor);
     padding: 6px 25px;
     font-weight: 500;
@@ -46,13 +41,16 @@
 }
 }
 
-.button__signup {
+.button-signup {
 @include button;
     display: flex;
     width: 200px;
     justify-content: center;
     margin: 0;
+    padding: 10px 32px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   
     align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
